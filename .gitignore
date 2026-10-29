@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local test data and throwaway bundles
+*.db
+okf_bundle_sample/
+
+# The real bundle (okf_bundle/) is meant to be committed so descriptions are
+# versioned and reviewed. Check it contains nothing sensitive first.

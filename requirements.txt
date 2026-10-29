@@ -1,0 +1,18 @@
+# Core
+langchain-core>=0.3
+langchain-openai>=0.3
+SQLAlchemy>=2.0
+sqlglot>=25
+PyYAML>=6.0
+python-dotenv>=1.0
+
+# Optional AI services: install only the one you want to use.
+#   Google Gemini (has a free tier):   pip install langchain-google-genai
+#   Ollama (runs on your computer):    pip install langchain-ollama
+
+# Testing
+pytest>=8.0
+
+# Database drivers: SQLite works out of the box. For PostgreSQL, also install:
+#   psycopg2-binary
+# (MySQL: pymysql, SQL Server: pyodbc)
